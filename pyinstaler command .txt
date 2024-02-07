@@ -1,0 +1,4 @@
+pyinstaller --onefile --add-data "api_helper.py;." --add-data "finvasia.py;." --add-data "order_logs.txt;." --add-data "TradeSettings.csv;." main.py
+
+
+pyinstaller --onefile --add-data "api_helper.py;." --add-data "finvasia.py;." --add-data "order_logs.txt;." --add-data "TradeSettings.csv;." main.py
